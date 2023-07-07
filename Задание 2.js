@@ -1,7 +1,7 @@
 // Написать функцию, которая принимает в качестве аргументов строку и объект, а затем проверяет есть ли у переданного
 // объекта свойство с данным именем. Функция должна возвращать true или false.
 
-function ObjStr(str, obj) {
+function StrObj(str, obj) {
     if (str in obj) {
         console.log(true, str)
     } else {
@@ -20,4 +20,4 @@ const city = {
     name: "Alex"
 }
 
-ObjStr("name", city)
+StrObj("name", city)
